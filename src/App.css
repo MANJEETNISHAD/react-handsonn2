@@ -1,10 +1,66 @@
 .App {
   text-align: center;
 }
-
+.container{
+  text-align: center;
+  /* border: 2px solid black;
+  width: 10px;
+  height: 200px; */
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid black; */
+  background: linear-gradient(#e66465, #9198e5);
+  overflow:hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.lable{
+
+font-size: 30px;
+font-weight: bold;
+}
+.Emp-details{
+  width:50px;
+  height: 50px;
+  border:2px solid black;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  margin: auto;
+  padding: 10px;
+
+}
+input{
+  width: 165px;
+  height: 46px;
+  border: 2px solid black;
+  border-radius: 27px;
+}
+button[type='submit']{
+  width:90px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+.emp{
+  width:auto;
+  height: auto;
+/* !position: absolute;
+!top: 500px;
+!left: 200px; */
+  color:white;
+}
+
+.heading{
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
