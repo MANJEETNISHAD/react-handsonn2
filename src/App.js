@@ -44,17 +44,22 @@ export default class App extends Component {
       
       <button type='submit' onClick={this.handleClick}>submit</button>
       </form>
+      <div className="manjeet">
+
+
       {this.state.data.map((item,index)=>{
         return(
-          <div key={index} >
-         <div className="emp"  >
-          <span >Name:{item.name} |</span> 
-          <span >Deprtment:{item.department} |</span>
-          <span >Rating:{item.rating}</span>
-         </div>
+          <div key={index} className="emp" >
+         {/* <div className="emp"  > */}
+          <span ><b>Name:</b>{item.name} <b>|Deprtment:</b>{item.department}<b>|Rating:</b>{item.rating}</span> 
+          {/* <span >Deprtment:{item.department} |</span> */}
+          {/* <span >Rating:{item.rating}</span> */}
+         {/* </div> */}
+
          </div>
         )
       })}
+      </div>
       </>
     )
   }

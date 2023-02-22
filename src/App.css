@@ -14,7 +14,7 @@ body{
   padding: 0;
   /* border: 2px solid black; */
   background: linear-gradient(#e66465, #9198e5);
-  overflow:hidden;
+  /* overflow:hidden; */
 }
 .App-logo {
   height: 40vmin;
@@ -24,17 +24,6 @@ body{
 
 font-size: 30px;
 font-weight: bold;
-}
-.Emp-details{
-  width:50px;
-  height: 50px;
-  border:2px solid black;
-  position: relative;
-  top: 100px;
-  left: 20px;
-  margin: auto;
-  padding: 10px;
-
 }
 input{
   width: 165px;
@@ -48,15 +37,16 @@ button[type='submit']{
   background-color: blue;
   color: white;
   border-radius: 30px;
-  border: 2px solid black;
+  
 }
 .emp{
-  width:auto;
-  height: auto;
-/* !position: absolute;
-!top: 500px;
-!left: 200px; */
-  color:white;
+margin: 20px 10px;
+color:white;
+ display: inline-block;
+ padding: 10px;
+ box-sizing: border-box;
+ border: 2px solid rgb(0, 0, 0);
+ border-radius: 20px;
 }
 
 .heading{
@@ -79,7 +69,11 @@ button[type='submit']{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.manjeet{
+  box-sizing: border-box;
+  margin:20px;
+  border: 5px solid black;
+}
 .App-link {
   color: #61dafb;
 }
